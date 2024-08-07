@@ -1,0 +1,1 @@
+export { default as Carder } from './components/Carder.tsx'; 
