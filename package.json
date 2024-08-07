@@ -28,9 +28,21 @@
   },
   "homepage": "https://github.com/harshavardhanSDE/carder.js#readme",
   "dependencies": {
+    "carder": "file:",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-typescript": "^1.0.1",
     "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.3.3",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "ts-jest": "^29.2.4"
   }
 }
