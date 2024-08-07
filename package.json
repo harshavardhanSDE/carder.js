@@ -1,0 +1,36 @@
+{
+  "name": "carder",
+  "version": "1.0.0",
+  "description": "A mini react library for rendering cards from JSON.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshavardhanSDE/carder.js.git"
+  },
+  "keywords": [
+    "react-library",
+    "cards"
+  ],
+  "author": "Harsha Vardhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harshavardhanSDE/carder.js/issues"
+  },
+  "homepage": "https://github.com/harshavardhanSDE/carder.js#readme",
+  "dependencies": {
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "typescript": "^5.5.4"
+  }
+}
